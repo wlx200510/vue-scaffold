@@ -1,15 +1,16 @@
 # vue-scaffold-webpack3
 
-> add Vuex for example/404
-> add element-ui for partial
-> add axios for api request
-> add sass/scss for style
-> add mockjs for axios request api
-> import component with split
+1. add Vuex for example/404
+2. add element-ui for partial
+3. add axios for api request
+4. add sass/scss for style
+5. add mockjs for axios request api
+6. import component with split
 
 ## 介绍
 
 基于 Webpack3 的 Vue2 SPA 开发环境，支持 ES6、Scss、jest test，项目已集成 vuex、vue-router、axios、mockjs 等。
+在Vue-cli脚手架基础上封装而成，方便大家。
 
 ## Use
 
