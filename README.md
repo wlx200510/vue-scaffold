@@ -9,7 +9,7 @@
 
 ## 介绍
 
-基于 Webpack3 的 Vue2 SPA 开发环境，支持 ES6、Scss、jest test，项目已集成 vuex、vue-router、axios、mockjs 等。
+基于 Webpack3 的 Vue2 SPA 开发环境，支持 ES6、Scss、karma test，项目已集成 vuex、vue-router、axios、mockjs 等。
 在Vue-cli脚手架基础上封装而成，方便大家。
 
 ## Use
@@ -44,6 +44,7 @@ npm test
 │   ├── webpack.base.conf.js
 │   ├── webpack.dev.conf.js
 │   ├── webpack.prod.conf.js
+|   |—— webpack.prod.test.js
 |—— config/                     # 目录及端口等常用配置项
 |   |——dev.env.js               # 生成环境
 |   |——index.js                 # 环境输出文件
@@ -85,8 +86,8 @@ npm test
 │   ├── unit/                    # unit test
 │   │   ├── specs/               # 测试用例
 │   │   │   └── ...
-│   │   ├── jest.conf.js  # jest 配置
-│   │   ├── setup.js            # jest start
+│   │   ├── karma.conf.js       # karma 配置
+│   │   ├── index.js            # karma start
 ├── index.html                  # index.html
 ├── .editorconfig               # 编辑器配置
 ├── .eslintignore               # eslint ignore conf
