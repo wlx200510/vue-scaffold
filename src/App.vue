@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png"></br>
-    <el-button>点我测试</el-button>
     <router-view/>
   </div>
 </template>

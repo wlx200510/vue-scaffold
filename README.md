@@ -1,7 +1,6 @@
 # vue-scaffold-webpack3
 
 1. add Vuex for example/404
-2. add element-ui for partial
 3. add axios for api request
 4. add sass/scss for style
 5. add mockjs for axios request api
@@ -9,8 +8,8 @@
 
 ## 介绍
 
-基于 Webpack3 的 Vue2 SPA 开发环境，支持 ES6、Scss、jest test，项目已集成 vuex、vue-router、axios、mockjs 等。
-在Vue-cli脚手架基础上封装而成，方便大家。
+基于 Webpack3 的 Vue2 SPA 开发环境，支持 ES6、Scss、ESlint，项目已集成 vuex、vue-router、axios、mockjs 等。
+在Vue-cli脚手架基础上封装而成，此分支不包括测试和组件引入，用于小型快速项目
 
 ## Use
 
@@ -48,7 +47,6 @@ npm test
 |   |——dev.env.js               # 生成环境
 |   |——index.js                 # 环境输出文件
 |   |——prod.env.js              # 打包环境
-|   |——test.env.js              # 测试环境
 ├── mock/
 │   └── ...                     # mock路由和数据配置
 |—— static/                    
@@ -81,12 +79,6 @@ npm test
 │   │   └── index.js            # 最终请求后端的地方
 ├── upload/                     # 模拟文件上传目录
 │   └── ...
-├── test/
-│   ├── unit/                    # unit test
-│   │   ├── specs/               # 测试用例
-│   │   │   └── ...
-│   │   ├── jest.conf.js  # jest 配置
-│   │   ├── setup.js            # jest start
 ├── index.html                  # index.html
 ├── .editorconfig               # 编辑器配置
 ├── .eslintignore               # eslint ignore conf
