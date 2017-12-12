@@ -25,7 +25,14 @@ module.exports = {
   // add your custom rules here
   rules: {
     // don't require .vue extension when importing
-    "semi": 1,
+    'semi': 'off',
+    'linebreak-style': 'off',
+    'comma-dangle': 'off',
+    'eol-last': 'off',
+    'prefer-const': 'off',
+    'prefer-template': 1,
+    'no-plusplus': 'off',
+    'func-names': ['warn', 'never'],
     'import/extensions': ['error', 'always', {
       js: 'never',
       vue: 'never'
