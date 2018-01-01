@@ -6,12 +6,13 @@
 5. add mockjs for axios request api
 6. import component with split
 7. import lib-flexible for mobile use
-8. add postcss-px2rem for rem use
+8. add postcss-pxtorem for rem use
 ## 介绍
 
 基于 Webpack3 的 Vue2 SPA 开发环境，支持 ES6、Scss、ESlint，项目已集成 vuex、vue-router、axios、mockjs 等。
 在Vue-cli脚手架基础上封装而成，此分支不包括测试和组件引入，用于小型快速项目
-此分支集成了postcss中的px2rem 设定remUnit为75(对应750设计稿) 可以在postcssrc.js中修改 开发时直接用px做单位
+此分支集成了`postcss`中的`pxtorem` 设定`rootValue`为75(对应750设计稿) 可以在`postcssrc.js`中修改 开发时直接用`px`做单位
+PS: 使用`pxtorem`代替`px2rem`从而通过使用`Px`来取消转换 达到特定属性不转换的目的
 
 ## Use
 
