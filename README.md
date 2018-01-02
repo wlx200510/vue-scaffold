@@ -43,6 +43,7 @@ npm test
 │   ├── webpack.base.conf.js
 │   ├── webpack.dev.conf.js
 │   ├── webpack.prod.conf.js
+|   |—— webpack.prod.test.js
 |—— config/                     # 目录及端口等常用配置项
 |   |——dev.env.js               # 生成环境
 |   |——index.js                 # 环境输出文件
